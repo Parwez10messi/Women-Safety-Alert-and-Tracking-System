@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="48" height="48">
+  <defs>
+    <linearGradient id="butterflyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#EC4899" />
+      <stop offset="100%" stopColor="#EF4444" />
+    </linearGradient>
+    <linearGradient id="butterflyGradLower" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#F43F5E" />
+      <stop offset="100%" stopColor="#8B5CF6" />
+    </linearGradient>
+  </defs>
+  <!-- Left Wings -->
+  <g>
+    <path d="M 48 46 C 45 28 22 12 10 25 C 0 35 15 54 32 52 C 42 51 46 48 48 46 Z" fill="url(#butterflyGrad)" />
+    <path d="M 45 44 C 42 30 25 20 16 29 C 10 35 20 48 30 46 C 38 45 43 43 45 44 Z" fill="#FFFFFF" fillOpacity="0.3" />
+    <path d="M 47 49 C 42 52 30 55 20 62 C 10 68 14 80 26 80 C 38 80 45 62 47 49 Z" fill="url(#butterflyGradLower)" />
+    <path d="M 44 51 C 40 53 32 55 24 60 C 16 64 18 73 25 73 C 33 73 41 61 44 51 Z" fill="#FFFFFF" fillOpacity="0.25" />
+  </g>
+  <!-- Right Wings (Mirrored) -->
+  <g transform="translate(100, 0) scale(-1, 1)">
+    <path d="M 48 46 C 45 28 22 12 10 25 C 0 35 15 54 32 52 C 42 51 46 48 48 46 Z" fill="url(#butterflyGrad)" />
+    <path d="M 45 44 C 42 30 25 20 16 29 C 10 35 20 48 30 46 C 38 45 43 43 45 44 Z" fill="#FFFFFF" fillOpacity="0.3" />
+    <path d="M 47 49 C 42 52 30 55 20 62 C 10 68 14 80 26 80 C 38 80 45 62 47 49 Z" fill="url(#butterflyGradLower)" />
+    <path d="M 44 51 C 40 53 32 55 24 60 C 16 64 18 73 25 73 C 33 73 41 61 44 51 Z" fill="#FFFFFF" fillOpacity="0.25" />
+  </g>
+  <!-- Antennae -->
+  <path d="M 48 28 C 45 20 37 18 36 12" stroke="#1E1B4B" strokeWidth="2" strokeLinecap="round" fill="none" />
+  <circle cx="36" cy="12" r="2" fill="#1E1B4B" />
+  <path d="M 52 28 C 55 20 63 18 64 12" stroke="#1E1B4B" strokeWidth="2" strokeLinecap="round" fill="none" />
+  <circle cx="64" cy="12" r="2" fill="#1E1B4B" />
+  <!-- Head & Body -->
+  <circle cx="50" cy="30" r="4.5" fill="#1E1B4B" />
+  <path d="M 50 32 C 52 32 53 38 53 52 C 53 66 52 75 50 75 C 48 75 47 66 47 52 C 47 38 48 32 50 32 Z" fill="#1E1B4B" />
+</svg>
